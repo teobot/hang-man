@@ -8,13 +8,11 @@ import "./css/index.css";
 
 import LandingScreen from "./screens/LandingScreen";
 import HangmanScreen from "./screens/HangmanScreen";
-import LostScreen from "./screens/LostScreen";
 
 const DisplayScreens = () => {
   return (
     <MemoryRouter>
       <Switch>
-        <Route exact path="/lost" component={LostScreen} />
         <Route exact path="/play" component={HangmanScreen} />
         <Route exact path="/" component={LandingScreen} />
       </Switch>

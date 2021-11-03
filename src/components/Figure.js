@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Figure({ stage }) {
+export default function Figure({ stage, scale }) {
   let style = {
     white: "#fff",
     black: "#000",
@@ -8,7 +8,7 @@ export default function Figure({ stage }) {
   };
 
   return (
-    <svg width="330" height="400" transform="scale(0.75)">
+    <svg width="330" height="400" transform={`scale(${scale || "0.75"})`}>
       {stage >= 2 ? (
         <>
           {/* HEAD */}
