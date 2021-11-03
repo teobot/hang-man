@@ -2,6 +2,8 @@
 
 This is my take on the hangman game.
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/58d862e7-3cca-4c20-94a1-d6016eb81386/deploy-status)](https://app.netlify.com/sites/hangman-teobot/deploys)
+
 ## Deployment
 - [Play the game here](https://hangman-teobot.netlify.app/)
 
