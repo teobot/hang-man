@@ -3,7 +3,7 @@
 This is my take on the hangman game.
 
 ## Deployment
-- ~~[you can play the game here](https://github.com/teobot/hang-man)~~
+- [Play the game here](https://hangman-teobot.netlify.app/)
 
 ## Acknowledgements
 
